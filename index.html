@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#09090f">
+    <meta name="description"
+        content="Portfólio de João Domingos — Engenharia, desenvolvimento web, tecnologias e projectos.">
+    <title>João Domingos | Portfólio</title>
+
+    <!-- Estilos:Reset, tokens de design, estilos principais e responsividade -->
+    <link rel="stylesheet" href="css/Reset.css">
+    <link rel="stylesheet" href="css/Variaveis.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Responsividade.css">
+
+    <!-- links de tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- links de ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <script src="../Domingosdev/js/menu.js"></script>
+</head>
+
+<body>
+    <div class="topos">
+        <!-- Cabeçalho e navegação principal -->
+        <header class="site-header leg" id="inicio">
+            <div class="cabecalho-interno">
+                <a href="#inicio" class="marca" aria-label="João Domingos - início">
+                    <span class="borda-marca" arial-hidden="true">JD</span>
+                    <span> João <strong>Domingos</strong></span>
+                </a>
+                <button id="menubtn" class="hamburguer" type="button" aria-label="Abrir menu de navegação"
+                    aria-controls="menu" aria-expanded="false">
+                    <span aria-hidden="true">&#9776;</span>
+                </button>
+
+                <nav id="menu" class="menu-desktop" aria-label="Menu de navegação principal">
+                    <ul class="nav-links">
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="#competencias">Competências</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#processo">Processo</a></li>
+                    </ul>
+                </nav>
+                <nav id="menu-mobile" class="menu-mobile" aria-label="Menu de navegação principal">
+                    <ul class="mobile-links">
+                        <li><a href="#sobre-mim">Sobre</a></li>
+                        <li><a href="#competencias">Competências</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#processo">Processo</a></li>
+                    </ul>
+                </nav>
+                <a class="nav-contato" href="#contato">Vamos conversar <span arial-hidden="true">↗</span></a>
+            </div>
+            <div class="overlay-menu"></div>
+        </header>
+    </div>
+    <!-- construinfo o conteudo-principal -->
+
+    <main id="conteudo-principal">
+        <section id="inicio" class="hero container" aria-label="titulo-hero">
+            <div class="informacoes-hero leg">
+                <div class="texto-hero">
+                    <h1 id="titulo-hero" class="type">
+                        João <span class="texto-gradiente type">Domingos.</span>
+                    </h1>
+                    <p class="descricao-hero">
+                        DESENVOLVEDOR WEB <br>
+                        Transformando ideias em experiências digitais funcionais e intuitivas
+                    </p>
+
+                    <div class="btns-hero">
+                        <a class="button button-primario" href="">Ver projetos ↓</a>
+                        <a class="button button-secundario" href="">Contato ↗</a>
+                    </div>
+                </div>
+                <div class="img-hero">
+                    <img src="img/222222.png" alt="foto de João Domingos | Portfólio" class="foto">
+                </div>
+            </div>
+        </section>
+        <!-- fim do hero section -->
+
+        <section id="sobre-mim" class="secao-sobre leg" aria-labelledby="titulo-sobre">
+            <div class="titulo-sobre">
+                <p class="index-secao">01 / SOBRE MIM</p>
+                <H2 id="titulo-sobre">Tecnologia com <span class="texto-gradiente">intenção.</span></H2>
+            </div>
+            <div class="container-sobre">
+
+                <p class="desc-curta">Acredito  que  um  bom  produto  digital  deve  ser fácil de compreender, agradável de
+                    usar e simples de manter.</p>
+                <p class="desc-longa"> Por isso, procuro combinar fundamentos sólidos de HTML e CSS, JavaScript, atenção
+                    aos detalhes e uma estrutura de código consistente. Estou a aprofundar as minhas competências
+                    através de estudo contínuo e projectos prático</p>
+
+                <div class="cartoes-principais">
+                    <article class="item-principal">
+                        <span class="posicao-item">01</span>
+                        <h3>Clareza</h3>
+                        <p>Conteúdo organizado e navegação intuitiva.</p>
+                    </article>
+                    <article class="item-principal">
+                        <span class="posicao-item">02</span>
+                        <h3>Responsividade</h3>
+                        <p>Experiência consistente em vários ecrãs.</p>
+                    </article>
+                    <article class="item-principal">
+                        <span class="posicao-item">03</span>
+                        <h3>Manutenção</h3>
+                        <p>Código legível, reutilizável e fácil de evoluir.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- fim do sobre -->
+
+        <section id="competencias" class="secao-competencias" aria-labelledby="titulo-competencias">
+            <div class="leg">
+                <div class="container-titulo-competencias">
+                    <p class="index-secao">02 / COMPETÊNCIAS</p>
+                    <h2 class="titulo-competencias">
+                        As ferramentas por trás <span class="texto-gradiente">do trabalho.</span>
+                    </h2>
+                </div>
+                <div class="container-competencias">
+                    <article class="card-competencia">
+                        <div class="card-competencia-top"><span class="icone-card" arial-hidden="true">&lt;/&gt;</span>
+                            <span class="posicao-card">01</span>
+                        </div>
+                        <h3>Front-end</h3>
+                        <p>Estrutura, estilos e interatividade das interfaces.</p>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>TypScript</li>
+                            <li>React.js</li>
+                        </ul>
+                    </article>
+                    <article class="card-competencia">
+                        <div class="card-competencia-top"><span class="icone-card" arial-hidden="true"> { }</span> <span
+                                class="posicao-card">02</span></div>
+                        <h3>Back-end</h3>
+                        <p>Fundamentos para criar a lógica e os serviços de uma aplicação.</p>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            
+                        </ul>
+                    </article>
+                    <article class="card-competencia">
+                        <div class="card-competencia-top"><span class="icone-card">▤</span> <span
+                                class="posicao-card">03</span></div>
+                        <h3>Dados</h3>
+                        <p>Organização, consulta e manipulação de dados relacionais.</p>
+                        <ul>
+                            
+                            <li>PostgreSQL</li>
+                            <li>CRUD</li>
+                        </ul>
+                    </article>
+                    <article class="card-competencia">
+                        <div class="card-competencia-top"><span class="icone-card">⌘</span> <span
+                                class="posicao-card">04</span></div>
+                        <h3>Ferramentas</h3>
+                        <p>Fluxo de trabalho e organização do código-fonte.</p>
+                        <ul>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>VSCode</li>
+                            <li>DevTools</li>
+                        </ul>
+                    </article>
+                </div>
+                <p class="desc-curta-competencia">Uma base técnica em crescimento, construída com prática, estudo e
+                    pequenos projectos.</p>
+            </div>
+        </section>
+        <!-- fim das competências -->
+        <section id="projetos" class="secao-projetos leg " aria-labelledby="titulo-projetos">
+            <div class="leg">
+                <div class="titulo-projeto">
+                    <p class="index-secao">03 / PROJETOS SELECCIONADOS</p>
+                    <h2 class="titulo-projetos">
+                        Ideias transformadas <span class="texto-gradiente">em produto.</span>
+                    </h2>
+                </div>
+                <div class="container-projetos">
+                    <article id="card-projeto" class="pot primeiro">
+                        <div class="imhg-projeto">
+                            <img src="img/mmmm.png" alt="Imagem do projeto MoraEmpreende" class="foto"
+                                draggable="false">
+                        </div>
+                        <div class="informacoes-projetos">
+                            <div class="card-projeto-top"><span class="classificacao-projeto">PLATAFORMA WEB</span>
+                                <span class="posicao-projeto"> 01/02</span>
+                            </div>
+                            <h3>Mora Empreende</h3>
+                            <p>Uma proposta digital para aproximar jovens de oportunidades de formação, empreendedorismo
+                                e
+                                estágio.</p>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="links-projetos">
+                                <a class="link ver-projeto" href="#">Ver projeto </i></a>
+                                <a class="link github" href="#"><i class="fa-brands fa-github"></i></a>
+                                
+                            </div>
+                        </div>
+                    
+                    </article>
+
+                    <article id="card-projeto" class="pot segundo">
+                        <div class="imhg-projeto">
+                            <img src="img/capa-clinica.png" alt="Imagem do projeto MoraEmpreende" class="foto"
+                                draggable="false">
+                        </div>
+                        <div class="informacoes-projetos">
+                            <div class="card-projeto-top"><span class="classificacao-projeto">PLATAFORMA WEB</span>
+                                <span class="posicao-projeto"> 02/02</span>
+                            </div>
+                            <h3>Clínica Maria Pedro</h3>
+                            <p>
+                                Uma solução digital para simplificar a gestão de pacientes, 
+                                consultas e serviços de saúde.
+                            </p>
+
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="links-projetos">
+                                <a class="link ver-projeto" href="#">Ver projeto </a>
+                                <a class="link github" href="#"> <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="todos-projetos">
+                    
+                </div>
+            </div>
+        </section>
+        <!-- fim dos projetos -->
+
+        <section id="processo" class="secao-processo " aria-labelledby="titulo-processo">
+            <div class="leg"> 
+                <div class="informacoes-processp-top">
+                    <p class="index-secao">04 / MÉTODO DE TRABALHO</p>
+                    <h2 class="titulo-processo">Da ideia à <span class="texto-gradiente">implementação</span></h2>
+                    <p class="desc-processo">Um processo simples ajuda a reduzir improvisos e a tomar melhores decisões
+                        durante o desenvolvimento.
+                    </p>
+                </div>
+                <div class="container-processo">
+                    <article class="passos-processo">
+
+                        <span class="posicao-passo">01</span>
+                        <div class="etapa-processo">
+                            <h3>Compreender</h3>
+                            <p>
+                                Definir o objectivo, o público e o
+                                problema que o produto precisa de resolver.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="passos-processo">
+
+                        <span class="posicao-passo">02</span>
+                        <div class="etapa-processo">
+                            <h3>Estruturar</h3>
+                            <p>
+                                Organizar conteúdo, páginas,
+                                componentes e prioridades antes de programar.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="passos-processo">
+
+                        <span class="posicao-passo">03</span>
+                        <div class="etapa-processo">
+                            <h3>Construir</h3>
+                            <p>
+                                Implementar com HTML semântico,
+                                CSS organizado e código consistente.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="passos-processo">
+
+                        <span class="posicao-passo">04</span>
+                        <div class="etapa-processo">
+                            <h3>Testar e melhorar</h3>
+                            <p>
+                                Verificar diferentes ecrãs, acessibilidade, estados e possíveis erros.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- fim do processo -->
+
+        <section id="contato" class="secao-contato leg" aria-labelledby="titulo-contato">
+
+            <div class="container-contato">
+                <div class="desc-contato">
+                    <p class="index-secao">05 / CONTATO</p>
+                    <h2 class="titulo-contato">Vamos construir algo <span class="texto-gradiente">útil?</span></h2>
+                    <p>
+                        Tens uma oportunidade, uma proposta ou queres desenvolver um
+                        projeto comigo? Estou disponível para conversar.
+                    </p>
+                    <div class="btns-contato">
+                        <a class="button button-primario" href="https://www.linkedin.com/in/domingosdev/"
+                            target="_blank" aria-label="joão Domingos - LinkedIn">LinkedIn</a>
+                        <a class="button button-secundario" href="https://github.com/joaodomingosdscode-afk"
+                            target="_blank" aria-label="joão Domingos - GitHub">Watsapp</a>
+                    </div>
+                </div>
+                <div class="marca-contato">
+                    <a href="tel:+244937428192" class="telefone" aria-label="joão Domingos - Telefone" target="_blank">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <!-- fim do contato -->
+    </main>
+    <footer class="rodape-do-site leg">
+        <div class="rodape-interno">
+            <a href="#inicio" class="marca" aria-label="João Domingos - início">
+                <span class="borda-marca" arial-hidden="true">JD</span>
+                <span> João <strong>Domingos</strong></span>
+            </a>
+            <small>&copy; 2026 João Domingos. Todos os direitos reservados.</small>
+            
+            <div class="redes">
+                <a href="#" aria-label="João Domingos - GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="João Domingos - LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="João Domingos - Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
