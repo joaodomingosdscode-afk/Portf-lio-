@@ -1,0 +1,122 @@
+/* TELEMÓVEIS: quando o ecrã tiver até 700px de largura. 
+--------------------------------------------------------------*/
+
+@media screen and (max-width:700px) {
+    .hamburguer {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display: none;
+    }
+    .nav-contato {
+        display: none;
+    }
+
+    .menu-desktop ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .secao-sobre {
+        padding-top: 100px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .pot {
+        display: flex;
+        flex-direction: column;
+        border-radius: var(--radius-md);
+    }
+
+    .container-contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rodape-interno {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .redes {
+        margin-left: auto;
+    }
+}
+
+/* TELEMÓVEIS PEQUENOS: até 480px. 
+------------------------------------------*/
+
+@media screen and (max-width:480px) {
+    .informacoes-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .cartoes-principais {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .informacoes-projetos ul li {
+        display: inline-flex;
+    }
+
+    .informacoes-projetos div {
+        margin-right: auto;
+    }
+
+    .btns-contato {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btns-contato a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-contato {
+        z-index: 100;
+        background: var(--color-surface);
+        border: 1px solid var(--color-accent);
+        border-radius: var(--radius-md);
+        padding: 30px 45px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .marca-contato {
+        margin-top: 30px;
+    }
+
+    .redes {
+        margin-left: auto;
+    }
+
+}
+
+/* TABLETS: quando o ecrã tiver até 850px de largura. 
+----------------------------------------------------------*/
+
+@media screen and (max-width:850px) {
+    .rodape-interno {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+}

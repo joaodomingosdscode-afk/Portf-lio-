@@ -1,0 +1,23 @@
+
+/* Designs de Tokens
+--------------------------------- */
+
+:root {
+  --color-scheme:#050608;
+  --color-bg: #0a0b0d;
+  --color-surface: #111318;
+  --color-surface-raised: #171920;
+  --color-border: rgba(255, 255, 255, 0.09);
+  --color-text: #f3f3f7;
+  --color-muted: #a0a2b0;
+  --color-subtle: #6f7280;
+  --color-accent: #a78bfa;
+  --color-accent-strong: #8b5cf6;
+  --color-accent-soft: rgba(139, 92, 246, 0.13);
+  --container-width: 1160px;
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --shadow-soft: 0 24px 70px rgba(0, 0, 0, 0.28);
+  --texto-gradiente:linear-gradient(110deg, #c4b5fd 8%, #9b7bff 54%, #e1d9ff 100%);
+}
